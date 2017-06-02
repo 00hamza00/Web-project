@@ -1,0 +1,446 @@
+body
+{
+	padding:0;
+	margin:0;
+}
+.center-align
+{
+	float:none;
+	margin:0 auto;
+}
+a
+{
+	color:black;
+}
+/**********************CG Login************************/
+.fixed-background
+{
+	position:relative;
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+	background-image:url('../images/bg-3.jpg');
+	background-size:cover;
+}
+
+.fixed-background > div
+{
+	background-color:black;
+	display:inline-block;
+	border:solid 3px black;
+	padding:30px 10px;
+	background-color: rgba(0, 0, 0, 0.27);
+	display: inline-block;
+	border: groove 3px rgba(0, 0, 0, 0.22);
+	padding: 30px 10px;
+	box-shadow: 0 0 10px;
+}
+
+.CG-login > h4
+{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color:white;
+}
+.CG-login > h5
+{
+	padding: 35px 20px 0px 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: white;
+}
+.registration-fields > select , .registration-fields > input
+{
+	height: 35px;
+	width: 77px;
+	border-radius: 5px;
+	padding: 0px 5px 0px 10px;
+}
+.error-message
+{
+	display:none;
+	color:red;
+}
+.registration-fields > span
+{
+	font-size: 20px;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.CG-login-button,.admin-login-button,.report-button
+{
+	width:100px;
+	border-radius: 0;
+	background-color: white;
+	border: solid 1px white;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 45px;
+}
+.report-button
+{
+	width:150px;
+	background-color:black;
+	border:solid 1px black;
+	color:white;
+}
+.report-button:hover
+{
+	color:black;
+	background:rgba(0,0,0,0.3);
+}
+.CG-login-button:hover,.admin-login-button:hover
+{
+	background:black;
+	color:white;
+}
+/********************** CG Login End ************************/
+
+/********************** CG Profile Start ************************/
+.profile-detail > .details > h1
+{
+	text-transform:uppercase;
+	letter-spacing:5px;
+}
+.picture > img
+{
+	margin:0 auto;
+}
+.details
+{
+	padding:0;
+}
+.details > table
+{
+	width:100%;
+	margin-top:25px;
+}
+.details > table tr:nth-child(odd)
+{
+	background:rgba(0,0,0,0.1);
+}
+.details > table tr > td
+{
+	padding:10px 0;
+	width:50%;
+}
+.details > table tr > td:nth-child(odd)
+{
+	text-align:right;
+	border-right:solid 1px grey;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: arial;
+	letter-spacing: 2px;
+}
+.details > table tr > td:nth-child(even)
+{
+	text-align:center;
+	font-family: arial;
+	letter-spacing: 1px;
+}
+.details > table tr > td:nth-child(odd) > span
+{
+	margin-left:10px;
+	margin-right:10px;
+}
+.courses-and-teachers
+{
+	padding: 10px 10px 0px 30px;
+}
+.courses-and-teachers > table 
+{
+	width:100%;
+	border:solid 1px rgba(0, 0, 255, 0.4);
+}
+.courses-and-teachers > table tr > td
+{
+	text-align:center;
+	padding:15px 0px;
+}
+.courses-and-teachers > table tr:nth-child(even)
+{
+	background-color:rgba(0,0,0,0.1);
+}
+.courses-and-teachers > table tr:nth-child(1) > td
+{
+	font-size:14px;
+	background:rgba(0, 0, 255, 0.4);
+	color:white;
+	font-weight:bold;
+	letter-spacing:1px;
+	text-transform:uppercase;
+}
+.courses-and-teachers > table tr > td:nth-child(-n+4)
+{
+	border-right:solid 1px rgba(0, 0, 255, 0.2);
+}
+.courses-and-teachers > table tr > td:nth-child(even)
+{
+	width:32%;
+}
+.ceClass:hover
+{
+	cursor:default;
+}
+.evaluation-images
+{
+	width:30px;
+}
+.courses-and-teachers table tr > td:nth-child(odd)
+{
+	width:12%;
+}
+.mainHeading
+{
+	text-transform:uppercase;
+	letter-spacing:3px;
+}
+/********************** CG Profile End ************************/
+
+
+/********************** Admin Panel End ************************/
+.username,.password
+{
+	width: 90% !important;
+	height: 44px !important;
+	margin-top: 40px;
+	border-radius: 0;
+	outline: none;
+}
+.username:focus,.password:focus
+{
+	box-shadow:0px 5px 30px black;
+}
+
+
+
+/* Admin Profile */
+.admin-menu
+{
+	position:fixed;
+	padding:0;
+	border-right:solid 1px grey;
+}
+.admin-name
+{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:40px;
+	line-height:40px;
+}
+.admin-name > p > span
+{
+	color: green;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+.the-menu
+{
+	position:absolute;
+	bottom:40px;
+	width:100%;
+	text-align:center;
+}
+.the-menu > ul
+{
+	padding:0;
+	margin:0;
+	width:100%;
+}
+.the-menu > ul > li:nth-child(5)
+{
+	border-bottom: inset 1px grey;
+}
+.the-menu > ul > li:hover
+{
+	cursor:pointer;
+	text-decoration:underline;
+}
+.the-menu > ul > li:active
+{
+	color:white;
+	background:rgba(202, 199, 199,0.7);
+	text-decoration:none;
+}
+.info-table
+{
+	width:100%;
+	border:solid 1px rgba(0, 0, 255, 0.3);
+}
+.evaluation-done
+{
+	color:green !important;
+}
+.note-done
+{
+
+}
+.info-table tr>th:nth-child(-n+4) , .info-table tr>td:nth-child(-n+4)
+{
+	border-right:solid 1px rgba(0, 0, 255, 0.3);
+}
+.info-table th
+{
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	font-size:15px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	background:rgba(0, 0, 255, 0.4);
+}
+.info-table tr
+{
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	letter-spacing:1px;
+}
+.info-table tr:nth-child(even)
+{
+	background-color:rgba(0,0,0,0.1);
+}
+.the-menu > ul > li > a
+{
+	display:block;
+	height:100%;
+	width:100%;
+	color:black;
+}
+.the-menu > ul > li
+{
+	height: 40px;
+	padding: 0;
+	line-height: 40px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background-color: gainsboro;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	box-shadow: 0px 2px 3px;
+	border: outset;
+}
+
+.data-wrapper
+{
+	padding:0;
+}
+
+
+
+.table {
+	background: rgba(0, 0, 255, 0.4);
+	border-collapse: separate;
+	box-shadow: inset 0 1px 0 #fff;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 30px auto;
+	text-align: left;
+	width: 800px;
+}	
+
+.table th {
+	background: url(https://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
+	border-left: 1px solid #555;
+	border-right: 1px solid #777;
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #333;
+	box-shadow: inset 0 1px 0 #999;
+	color: #fff;
+  font-weight: bold;
+	padding: 10px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 #000;	
+}
+
+th:after {
+	background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+	content: '';
+	display: block;
+	height: 25%;
+	left: 0;
+	margin: 1px 0 0 0;
+	position: absolute;
+	top: 25%;
+	width: 100%;
+}
+
+th:first-child {
+	border-left: 1px solid #777;	
+	box-shadow: inset 1px 1px 0 #999;
+}
+
+th:last-child {
+	box-shadow: inset -1px 1px 0 #999;
+}
+
+td {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 10px 15px;
+	position: relative;
+	transition: all 300ms;
+}
+
+td:first-child {
+	box-shadow: inset 1px 0 0 #fff;
+}	
+
+td:last-child {
+	border-right: 1px solid #e8e8e8;
+	box-shadow: inset -1px 0 0 #fff;
+}	
+
+tr {
+	background: url(https://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+tr:nth-child(odd) td {
+	background: #f1f1f1 url(https://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+tr:last-of-type td {
+	box-shadow: inset 0 -1px 0 #fff; 
+}
+
+tr:last-of-type td:first-child {
+	box-shadow: inset 1px -1px 0 #fff;
+}	
+
+tr:last-of-type td:last-child {
+	box-shadow: inset -1px -1px 0 #fff;
+}	
+
+tbody:hover td {
+	color: transparent;
+	text-shadow: 0 0 3px #aaa;
+}
+
+tbody:hover tr:hover td {
+	color: #444;
+	text-shadow: 0 1px 0 #fff;
+}
+
+
+/********************** Admin Panel End ************************/
+
+@media screen and (max-width: 768px)
+{
+	.details > table
+	{
+		margin-top:0px;
+	}
+	.courses-and-teachers
+	{
+		padding: 15px;
+	}
+}

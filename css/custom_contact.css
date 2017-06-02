@@ -1,0 +1,18 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    margin-bottom: 40px;
+}
+label {
+    color: #F8F8FF;
+}
+.btn-send {
+	background-color: rgba(255, 198, 0, 0.85);
+    border-color: rgba(255, 198, 0, 0.85);
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
